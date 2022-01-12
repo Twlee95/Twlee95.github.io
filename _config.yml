@@ -77,10 +77,11 @@ theme_mode: dark  # [light|dark]
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-img_cdn: 'C:\Users\USER\JupyterProjects\Twlee95.github.io\github_cat.png'
+img_cdn: 'C:/Users/USER/JupyterProjects/Twlee95.github.io/github_cat.png'
+#img_cdn: 'https://cdn.jsdelivr.net/gh/cotes2020/chirpy-images@f4e0354b674f65a53b8917f0f786ed2956898cc1'
 
 # the avatar on sidebar, support local or CORS resources
-avatar: 'C:\Users\USER\JupyterProjects\Twlee95.github.io\KakaoTalk_20220112_235549864.jpg'
+avatar: 'C:/Users/USER/JupyterProjects/Twlee95.github.io/KakaoTalk_20220112_235549864.jpg'
 
 # boolean type, the global switch for ToC in posts.
 toc: true
