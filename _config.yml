@@ -77,12 +77,10 @@ theme_mode: dark  # [light|dark]
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-#img_cdn: https://user-images.githubusercontent.com/76574427/149167580-ef088048-427b-4907-810a-43161a8cc21f.png
 img_cdn: 'https://cdn.jsdelivr.net/gh/cotes2020/chirpy-images@f4e0354b674f65a53b8917f0f786ed2956898cc1'
 
 # the avatar on sidebar, support local or CORS resources
-# https://user-images.githubusercontent.com/76574427/149167580-ef088048-427b-4907-810a-43161a8cc21f.png
-avatar: https://user-images.githubusercontent.com/76574427/149168620-e296cc32-fba6-47b4-a78f-dc875aab22a0.jpg
+avatar: https://user-images.githubusercontent.com/76574427/149171174-c513e108-e782-42c1-8665-6566475f7108.jpg
 # boolean type, the global switch for ToC in posts.
 toc: true
 
