@@ -3,7 +3,7 @@ title:  "[Kaggle] competition 참가방법과, 시작방법"
 excerpt: "kaggle 시작"
 
 categories:
-  - Kaggle
+  - Kaggle, Tutorial
 tags:
   - [Kaggle, competition, Github, Git, Blog]
 
@@ -15,11 +15,6 @@ last_modified_at: 2022-01-21
 ---
 
 # OVERVIEW OF KAGGLE
-
-
-```
-KAGGLE
-```
 
 1. 대회가 어떤 주제인지 Description
 2. Data의 종류와 분량 확인 (EDA)
