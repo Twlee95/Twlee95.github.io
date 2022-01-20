@@ -84,7 +84,7 @@ last_modified_at: 2022-01-21
 데이터에서 노이즈 확인  
 가정을 어떻게 검증할까?  
 
-<남의 노트북 뺏어 쓰기>
+###  남의 노트북 뺏어 쓰기
 -> copy and edit notebook
 
 
