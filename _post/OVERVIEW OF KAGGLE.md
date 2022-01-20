@@ -3,7 +3,7 @@ title:  "[Kaggle] competition 참가방법과, 시작방법"
 excerpt: "kaggle 시작"
 
 categories:
-  - Blog
+  - Kaggle
 tags:
   - [Kaggle, competition, Github, Git, Blog]
 
