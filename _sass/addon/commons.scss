@@ -625,8 +625,10 @@ $sidebar-display: "sidebar-display";
   overflow-y: auto;
   width: $sidebar-width;
   z-index: 99;
-  background: url("/assets/img/블로그_카페사진.jpg");          /*var(--sidebar-bg);*/
-
+  /*background: var(--sidebar-bg);*/
+  background: url('/assets/img/blog_cafe.jpg');
+  background-size: 100% 100%;
+  background-position: center;
   /* Hide scrollbar for Chrome, Safari and Opera */
   &::-webkit-scrollbar {
     display: none;
