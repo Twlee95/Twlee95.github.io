@@ -171,3 +171,5 @@ jekyll-archives:
     tag: /tags/:name/
     category: /categories/:name/
 
+
+img_path: assets/img/
