@@ -15,6 +15,9 @@ last_modified_at: 2023-04-17
 
 ## Stable Diffusion
 
+지금부터 Stable Diffusion의 개요와 세부적인 모델 구조에 관하여 알아보겠다 !
+
+
 #### Stable Diffusion이란
 
 diffusion은 이미지 생성모델 중 하나임.
@@ -46,5 +49,22 @@ Latent Diffusion Model은 이미지 학습을 위한 첫 단계에서 VAE(Variat
 
 이렇게 압축된 행렬에 노이츠를 추가하고 복구함으로써
 기존 Diffusion에 비해 학습 속도가 매우 개선된다.
+
+![Procedure of Stable Diffusion](https://user-images.githubusercontent.com/76574427/232398645-4659c342-bdc0-495a-8835-5856b0313c6e.png)
+
+Latent Sapce를 활용하여 Diffusion이 진행되는데 이를 Stable diffusion 이라고 한다.
+
+
+
+
+#### 구체적인 Stable Diffusion의 구조
+
+
+
+
+
+
+
+
 
 
