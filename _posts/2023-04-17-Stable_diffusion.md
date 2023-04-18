@@ -27,6 +27,12 @@ Autoencoder는 다양한 이미지를 생성가능하지만 품질이 낮다는 
 GAN은 이미지 품질은 상대적으로 뛰어나지만 다양한 이미지를 생성하는데 어려움을 겪는다.
 하지만, Diffusion은 다양하고 품질이 높은 이미지를 생성가능하게 한다.
 
+Duffusion모델은 Likeihood 기반 모델이기 때문에 GAN과 같이 mode-collapse 및 training instabilities을 나타내지 않으며 
+parameter sharing을 크게 활용하여 AR 모델에서와 같이 수십억 개의 매개 변수를 포함하지 않고 자연 이미지의 매우 복잡한 분포를 모델링할 수 있다.
+
+
+
+
 #### Stable diffusion의 원리는 무엇일까
 Diffusion Model은 기본이미지(시간 t=0)에 chatGPT가 노이즈(랜덤한 색상의 점)을 추가함
 이 과정을 1000번 정도 반복하면 우측과 같이 순수한 노이즈와 유사한 이미지로 변환이 된다.
@@ -41,9 +47,19 @@ Diffusion Model은 기본이미지(시간 t=0)에 chatGPT가 노이즈(랜덤한
 이렇게 완벽하게 보이는 Diffusion Model에도 단점이 있었는데,
 매우 많은 픽셀을 1000번 이상 반복하는 것은 컴퓨팅 능력이 매우 많이 필요한 작업이다.
 
+논문의 말을 인용한다면
+```
+Although diffusion models allow to ignore perceptually irrelevant details by undersampling the corresponding loss terms, they still require costly function evaluations in pixel space, which causes huge demands in computation time and energy resources.
+```
+비록 Diffusion model이 상응하는 Loss를 under sampling함으로써 인식적으로 관련없는 디테일을 무시할지라도
+여전히 픽셀공간의 함수평가는 값비싼 비용을 요구한다.
+
 그래서 이를 해결하기 위해 새로운 방법인 Latent Diffusion Model이 등장했다!
 Latent Diffusion Model은 이미지 학습을 위한 첫 단계에서 VAE(Variational Autoencder)나 U-Net과 같은 인코딩 방법을 사용하여 이미지를 변환합니다.
 이렇게 인코딩된 이미지는 잠재 변수로서 압축된 행렬로 표현됩니다.
+
+
+
 
 ![Image to latent space](https://user-images.githubusercontent.com/76574427/232394460-842f3139-a91a-4f03-a7c7-0f67e9cdb379.png)
 
@@ -57,14 +73,7 @@ Latent Sapce를 활용하여 Diffusion이 진행되는데 이를 Stable diffusio
 
 
 
-#### 구체적인 Stable Diffusion의 구조
 
 
 
-
-
-
-
-
-
-
+[Stable diffusion Paper](https://youtu.be/a5CC8rwOyt8)
