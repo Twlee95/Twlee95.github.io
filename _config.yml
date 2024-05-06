@@ -129,7 +129,9 @@ navigation_header:
   url: /blog/
 - title: Categories
   url: /categories/
-- title: Search
+- title: StudyPost
+  url: /studypost/
+- title: Search   ## md 파일 이름인듯
   url: /search/
 # - title: Fork Alembic
 #   url: https://github.com/daviddarnes/alembic
