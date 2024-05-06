@@ -127,8 +127,8 @@ navigation_header:
 #   url: /elements/
 - title: Posts
   url: /blog/
-- title: Studies and Projects
-  url: /study/
+- title: Categories
+  url: /categories/
 - title: Search   ## md 파일 이름인듯
   url: /search/
 # - title: Fork Alembic
