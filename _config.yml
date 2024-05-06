@@ -127,9 +127,7 @@ navigation_header:
 #   url: /elements/
 - title: Posts
   url: /blog/
-- title: Projects
-  url: /projects/
-- title: Studies
+- title: Studies and Projects
   url: /studyies/
 - title: Search   ## md 파일 이름인듯
   url: /search/
