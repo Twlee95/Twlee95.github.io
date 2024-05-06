@@ -139,15 +139,17 @@ navigation_footer:
   url: https://darn.es
 
 social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
-  Twitter: https://twitter.com/DavidDarnes
-  LinkedIn: https://www.linkedin.com/in/daviddarnes
-  GitHub: https://github.com/daviddarnes
+  # Twitter: https://twitter.com/DavidDarnes
+  LinkedIn: https://www.linkedin.com/in/taewon-lee-9635b7228/
+  GitHub: https://github.com/Twlee95
   link: https://darn.es
   RSS: /feed.xml
 
 sharing_links: # Appear at the bottom of single blog posts, add as desired. The value can be 'true' or the desired button colour
-  Twitter: "#0d94e7"
-  facebook: "#3B5998"
+  # Twitter: "#0d94e7"
+  # facebook: "#3B5998"
+  GitHub: true
+  LinkedIn : true
   Email: true
 
 # Load custom fonts from fonts.google.com etc
