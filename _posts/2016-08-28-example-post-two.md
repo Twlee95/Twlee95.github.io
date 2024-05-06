@@ -1,8 +1,7 @@
 ---
 title: History of the Alembic
 categories:
-- History
-- External sources
+- AI
 feature_text: |
   The History of the Alembic tool
 ---

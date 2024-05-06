@@ -127,8 +127,8 @@ navigation_header:
 #   url: /elements/
 - title: Blog
   url: /blog/
-- title: Categories
-  url: /categories/
+- title: Project
+  url: /project/
 - title: StudyPost
   url: /studypost/
 - title: Search   ## md 파일 이름인듯
