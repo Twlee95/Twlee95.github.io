@@ -135,14 +135,14 @@ navigation_header:
 #   url: https://github.com/daviddarnes/alembic
 
 navigation_footer:
-- title: Created by David Darnes
-  url: https://darn.es
+# - title: Created by David Darnes
+#   url: https://darn.es
 
 social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
   # Twitter: https://twitter.com/DavidDarnes
   LinkedIn: https://www.linkedin.com/in/taewon-lee-9635b7228/
   GitHub: https://github.com/Twlee95
-  link: https://darn.es
+  # link: https://darn.es
   Email: leetee95@gmail.com
   RSS: /feed.xml
 
