@@ -125,12 +125,12 @@ navigation_header:
   url: /
 # - title: Elements
 #   url: /elements/
-- title: Blog
+- title: Posts
   url: /blog/
-- title: Project
-  url: /project/
-- title: StudyPost
-  url: /studypost/
+- title: Projects
+  url: /projects/
+- title: Studies
+  url: /studyies/
 - title: Search   ## md 파일 이름인듯
   url: /search/
 # - title: Fork Alembic
